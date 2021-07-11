@@ -21,7 +21,7 @@ public class myCaptain{
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a.length;j++) {
                for(int k=0;k<a.length;k++){
-                   m[i][j]+=a[i][j]*b[i][k];
+                   m[i][j]+=a[i][j]*b[k][i];
                }
                 System.out.print(m[i][j]+" ");
             }
